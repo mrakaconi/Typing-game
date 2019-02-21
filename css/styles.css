@@ -21,7 +21,7 @@ label {
     border: 2px solid #2600ff;
     background: #00f7ff
 }
-.input__leter {
+#input__leter {
     margin: 15px 0;
     width: 70px;
     height: 70px;
