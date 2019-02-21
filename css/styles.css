@@ -1,0 +1,30 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+label {
+    text-align: center;
+}
+.main-wrapper {
+    text-align: center;
+}
+
+.keys {
+    display: flexbox;
+    flex-wrap: wrap;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+kbd {
+    display: block;
+    font-size: 18px;
+}
+.key {
+    /* border: .4rem solid black; */
+    margin: 1px;
+    font-size: 24px;
+    width: 100px;
+    text-align: center;
+}
