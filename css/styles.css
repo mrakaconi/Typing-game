@@ -9,7 +9,52 @@ label {
 .main-wrapper {
     text-align: center;
 }
-
+.prva-kolona {
+    flex-basis: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 15px;
+}
+.start-button {
+    border: 2px solid #2600ff;
+    background: #00f7ff
+}
+.input__leter {
+    margin: 15px 0;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #2600ff;
+}
+.monitor__number {
+    text-align: center;
+}
+.druga-kolona {
+    flex-basis: 5%;
+    position: relative;
+    text-align: left;
+    font-size: 12px;
+}
+.score__hit {
+    color: #008000;
+}
+.score__miss {
+    color: #ff0000;
+}
+.score__left {
+    color: #800080;
+}
+.druga-kolona h6{
+    font-size: 14px;
+}
+.key {
+    /* border: .4rem solid black; */
+    margin: 1px;
+    font-size: 24px;
+    width: 100px;
+    text-align: center;
+}
 .keys {
     display: flexbox;
     flex-wrap: wrap;
@@ -20,11 +65,17 @@ label {
 kbd {
     display: block;
     font-size: 18px;
+    background: none;
+    color: #000000;
 }
-.key {
-    /* border: .4rem solid black; */
-    margin: 1px;
-    font-size: 24px;
-    width: 100px;
-    text-align: center;
+#checkbox1, #checkbox2, #checkbox3 {
+    margin-right: 10px;
 }
+.levels input {
+    margin-left: 40px;
+}
+.body {
+    margin-top: 60px;
+}
+
+
