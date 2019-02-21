@@ -14,6 +14,42 @@
 <body>
 
     <div class="main-wrapper">
+
+        <div class="container header">
+            <div class="row">
+                <div class="prva-kolona">
+                    <div class="levels">
+                        <label><input id="checkbox1" type="radio" name="optradio">Easy</label>
+                        <label><input id="checkbox2" type="radio" name="optradio">Medium</label>
+                        <label><input id="checkbox3" type="radio" name="optradio">Hard</label>
+                    </div>
+                </div>
+                <div class="druga-kolona">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="prva-kolona">
+                        <button class="btn start-button">Start game</button>
+                    <div class="input">
+                        <input class="input__leter">
+                    </div>
+                    <div class="monitor-input">
+                        <input class="monitor__number" type="text" placeholder="User letter input">
+                    </div>
+                </div>
+                <!-- START OF THE SCORE -->
+                <div class="druga-kolona">
+                    <div class="score">
+                        <h6>Score:</h6>
+                        <div class="score__hit">Hit:
+                            <div class="score__hit_number">0</div>
+                        </div>
+                        <div class="score__miss">Miss:
+                            <div class="score__mis_number">0</div>
+                        </div>
+                        <div class="score__left">Left:
+                            <div class="score__left_number">0</div>
         <div class="container">
             <div class="row">
                 <div class="levels">
@@ -35,120 +71,110 @@
                             <div class="score__left">Left:
                                 <div class="score__left_number">0</div>
                             </div>
+
                         </div>
                     </div>
                 </div>
                 <!-- END OF THE SCORE -->
             </div>
-            <div class="start-button">
-                <button class="btn start-button">Start game</button>
-            </div>
 
-            <div class="input">
-                <div class="input__leter">User letter input</div>
-            </div>
-            <div class="monitor-input">
-                <div class="monitor__number">0</div>
-            </div>
         </div>
-    </div>
 
 
-    <div class="container">
-        <div class="row">
-            <div class="keys">
-                <div class="row left">
-                    <div data-key="65" class="key">
-                        <kbd>A (1)</kbd>
-                    </div>
-                    <div data-key="83" class="key">
-                        <kbd>B (2)</kbd>
-                    </div>
-                    <div data-key="68" class="key">
-                        <kbd>C (3)</kbd>
-                    </div>
-                    <div data-key="70" class="key">
-                        <kbd>D (4)</kbd>
-                    </div>
-                    <div data-key="71" class="key">
-                        <kbd>E (5)</kbd>
-                    </div>
-                    <div data-key="72" class="key">
-                        <kbd>F (6)</kbd>
-                    </div>
-                </div>
-                <div class="row left">
-                    <div data-key="74" class="key">
-                        <kbd>G (7)</kbd>
-                    </div>
-                    <div data-key="75" class="key">
-                        <kbd>H (8)</kbd>
-                    </div>
-                    <div data-key="76" class="key">
-                        <kbd>I (9)</kbd>
-                    </div>
-                    <div data-key="65" class="key">
-                        <kbd>J (10)</kbd>
-                    </div>
-                    <div data-key="83" class="key">
-                        <kbd>K (11)</kbd>
-                    </div>
-                    <div data-key="68" class="key">
-                        <kbd>L (12)</kbd>
-                    </div>
-                </div>
-                <div class="row left">
-                    <div data-key="70" class="key">
-                        <kbd>M (13)</kbd>
-                    </div>
-                    <div data-key="71" class="key">
-                        <kbd>N (14)</kbd>
-                    </div>
-                    <div data-key="72" class="key">
-                        <kbd>O (15)</kbd>
-                    </div>
-                    <div data-key="74" class="key">
-                        <kbd>P (16)</kbd>
-                    </div>
-                    <div data-key="75" class="key">
-                        <kbd>Q (17)</kbd>
-                    </div>
-                    <div data-key="76" class="key">
-                        <kbd>R (18)</kbd>
-                    </div>
-                </div>
-                <div class="row left">
-                    <div data-key="65" class="key">
-                        <kbd>S (19)</kbd>
-                    </div>
-                    <div data-key="83" class="key">
-                        <kbd>T (20)</kbd>
-                    </div>
-                    <div data-key="68" class="key">
-                        <kbd>U (21)</kbd>
-                    </div>
-                    <div data-key="70" class="key">
-                        <kbd>V (22)</kbd>
-                    </div>
-                    <div data-key="71" class="key">
-                        <kbd>W (23)</kbd>
-                    </div>
-                    <div data-key="72" class="key">
-                        <kbd>X (24)</kbd>
-                    </div>
-                </div>
-                <div class="row left">
-                    <div data-key="74" class="key">
-                        <kbd>Y (25)</kbd>
-                    </div>
-                    <div data-key="75" class="key">
-                        <kbd>Z (26)</kbd>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        <div class="container body">
+            <div class="row">
+                <div class="prva-kolona">
+                    <div class="keys">
+                        <div class="row left">
+                            <div data-key="65" class="key">
+                                <kbd>A (1)</kbd>
+                            </div>
+                            <div data-key="83" class="key">
+                                <kbd>B (2)</kbd>
+                            </div>
+                            <div data-key="68" class="key">
+                                <kbd>C (3)</kbd>
+                            </div>
+                            <div data-key="70" class="key">
+                                <kbd>D (4)</kbd>
+                            </div>
+                            <div data-key="71" class="key">
+                                <kbd>E (5)</kbd>
+                            </div>
+                            <div data-key="72" class="key">
+                                <kbd>F (6)</kbd>
+                            </div>
+                        </div>
+                        <div class="row left">
+                            <div data-key="74" class="key">
+                                <kbd>G (7)</kbd>
+                            </div>
+                            <div data-key="75" class="key">
+                                <kbd>H (8)</kbd>
+                            </div>
+                            <div data-key="76" class="key">
+                                <kbd>I (9)</kbd>
+                            </div>
+                            <div data-key="65" class="key">
+                                <kbd>J (10)</kbd>
+                            </div>
+                            <div data-key="83" class="key">
+                                <kbd>K (11)</kbd>
+                            </div>
+                            <div data-key="68" class="key">
+                                <kbd>L (12)</kbd>
+                            </div>
+                        </div>
+                        <div class="row left">
+                            <div data-key="70" class="key">
+                                <kbd>M (13)</kbd>
+                            </div>
+                            <div data-key="71" class="key">
+                                <kbd>N (14)</kbd>
+                            </div>
+                            <div data-key="72" class="key">
+                                <kbd>O (15)</kbd>
+                            </div>
+                            <div data-key="74" class="key">
+                                <kbd>P (16)</kbd>
+                            </div>
+                            <div data-key="75" class="key">
+                                <kbd>Q (17)</kbd>
+                            </div>
+                            <div data-key="76" class="key">
+                                <kbd>R (18)</kbd>
+                            </div>
+                        </div>
+                        <div class="row left">
+                            <div data-key="65" class="key">
+                                <kbd>S (19)</kbd>
+                            </div>
+                            <div data-key="83" class="key">
+                                <kbd>T (20)</kbd>
+                            </div>
+                            <div data-key="68" class="key">
+                                <kbd>U (21)</kbd>
+                            </div>
+                            <div data-key="70" class="key">
+                                <kbd>V (22)</kbd>
+                            </div>
+                            <div data-key="71" class="key">
+                                <kbd>W (23)</kbd>
+                            </div>
+                            <div data-key="72" class="key">
+                                <kbd>X (24)</kbd>
+                            </div>
+                        </div>
+                        <div class="row left">
+                            <div data-key="74" class="key">
+                                <kbd>Y (25)</kbd>
+                            </div>
+                            <div data-key="75" class="key">
+                                <kbd>Z (26)</kbd>
+                            </div>
+                        </div>
 
+            
 
 
 
