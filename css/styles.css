@@ -9,6 +9,7 @@ label {
 .main-wrapper {
     text-align: center;
 }
+
 .prva-kolona {
     flex-basis: 95%;
     display: flex;
@@ -77,5 +78,4 @@ kbd {
 .body {
     margin-top: 60px;
 }
-
 
