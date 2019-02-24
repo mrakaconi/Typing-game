@@ -26,6 +26,8 @@ label {
     width: 70px;
     height: 70px;
     border: 2px solid #2600ff;
+    text-align: center;
+    font-size: xx-large;
 }
 .monitor__number {
     text-align: center;
