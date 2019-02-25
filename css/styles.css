@@ -30,8 +30,9 @@ label {
     font-size: xx-large;
     color: #000000;
 }
-.monitor_number {
+#monitor {
     text-align: center;
+    margin-top: 15px;
 }
 .druga-kolona {
     flex-basis: 5%;
