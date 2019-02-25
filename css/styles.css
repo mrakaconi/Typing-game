@@ -17,19 +17,20 @@ label {
     position: relative;
     margin-top: 15px;
 }
-.start-button {
+#start {
     border: 2px solid #2600ff;
     background: #00f7ff
 }
-#input__leter {
+#number {
     margin: 15px 0;
     width: 70px;
     height: 70px;
     border: 2px solid #2600ff;
     text-align: center;
     font-size: xx-large;
+    color: #000000;
 }
-.monitor__number {
+.monitor_number {
     text-align: center;
 }
 .druga-kolona {
@@ -38,20 +39,19 @@ label {
     text-align: left;
     font-size: 12px;
 }
-.score__hit {
+#hit {
     color: #008000;
 }
-.score__miss {
+#miss {
     color: #ff0000;
 }
-.score__left {
+#left {
     color: #800080;
 }
 .druga-kolona h6{
     font-size: 14px;
 }
-.key {
-    /* border: .4rem solid black; */
+#key {
     margin: 1px;
     font-size: 24px;
     width: 100px;
@@ -79,3 +79,5 @@ kbd {
 .body {
     margin-top: 60px;
 }
+
+
